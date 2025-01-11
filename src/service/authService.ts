@@ -4,8 +4,8 @@ import { PublicClientApplication } from '@azure/msal-browser';
 
 const msalConfig = {
   auth: {
-    clientId: '9c36ebc1-9934-4cf6-b8ed-63d66cc3ae94',
-    authority: 'https://login.microsoftonline.com/1490b17d-5dc9-4cbf-aeba-a2e854f521b8/',
+    clientId: '', //  add microsoft azure directory client id  here 
+    authority: '',  // add authority here
     redirectUri: 'http://localhost:5173/', // Adjust based on your application's URL
 
   },
